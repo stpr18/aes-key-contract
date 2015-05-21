@@ -51,5 +51,5 @@ public:
 	}
 
 	static void key_expansion(uint32_t key[], uint32_t w[]);
-	static void Aes::key_contraction(uint32_t w[], int num, uint32_t key[]);
+	static void key_contraction(uint32_t w[], int num, uint32_t key[]);
 };
